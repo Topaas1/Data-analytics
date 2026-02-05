@@ -35,9 +35,25 @@ The dataset used in this project is **entirely fictional** and was created to re
 ## Example DAX Measures
 Below is an example of a key metric used in the analysis to calculate the share of remote appointments:
 
+
+
 ```DAX
 Etä_Osuus_% =
 DIVIDE(
     SUM(Fakta_Palvelut[Joista etäkäyntejä]),
     [Käynnit yhteensä]
 ) * 100
+```
+
+## Key Findings
+- The share of remote appointments in **Metro North** is significantly lower than in **Metro West**.
+- **Metro North** shows a higher number of appointments per employee, suggesting differences in available resources.
+- Despite higher efficiency per employee, the gap in digital appointment usage remains substantial.
+
+## Conclusions and Next Steps
+The results indicate that **Metro North** may benefit from further investigation into barriers to digital healthcare adoption. Possible next steps include:
+- Assessing digital literacy among employees and customers
+- Evaluating access to and usability of digital devices
+- Exploring organizational or cultural factors affecting adoption
+
+This analysis highlights how data can support operational decision-making in healthcare services.
