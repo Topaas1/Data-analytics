@@ -1,7 +1,7 @@
 # Power BI Project: Digital vs In-Person Healthcare Appointments
 
 ## Project Overview
-This project analyzes core operational metrics of social and healthcare services in the capital area using fictional data. The goal is to compare two major cities—**Metro North and Metro West**—and evaluate how effectively they are meeting their targets for digital (remote) healthcare appointments.
+This project analyzes core operational metrics of social and healthcare services in the capital area using fictional data. The goal is to compare two major cities—**Metro North (Metro Pohjoinen) and Metro West (Metro Länsi)**—and evaluate how effectively they are meeting their targets for digital (remote) healthcare appointments.
 
 The analysis focuses on metrics such as:
 - Ratio of remote vs in-person appointments  
