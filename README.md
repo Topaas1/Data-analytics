@@ -28,10 +28,21 @@ The dataset used in this project is **entirely fictional** and was created to re
 4. Normalized the data into a star schema, separating fact and dimension tables.
 5. Built a data model with relationships between time, area, and fact tables.
 6. Created key measures, such as:
-   - Ratio of remote to in-person appointments  
+   - Ratio of remote to in-person appointments
    - Appointments per employee
 7. Designed interactive visuals, including bar charts, cards, and slicers to compare cities.
 
+## Example DAX Measures
+
+Below is an example of a key metric used in the analysis to calculate the share of remote appointments:
+
+```DAX
+Etä_Osuus_% =
+DIVIDE(
+    SUM(Fakta_Palvelut[Joista etäkäyntejä]),
+    [Käynnit yhteensä]
+) * 100
+```
 ## Key Findings
 - The share of remote appointments in Helsinki is significantly lower than in Espoo.
 - Helsinki shows a higher number of appointments per employee, suggesting differences in available resources.
