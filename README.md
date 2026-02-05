@@ -10,6 +10,12 @@ The analysis focuses on metrics such as:
 
 This project was built using Power BI and is intended to demonstrate my end-to-end analytics workflow, from defining a business question to modeling data and presenting insights through visuals.
 
+## Skills Demonstrated
+- Power BI: Data modeling, DAX, report creation
+- Data cleaning & transformation: Power Query
+- Analytical thinking: KPI design, business question interpretation
+- Data visualization: Interactive charts, cards, and slicers
+
 ## Business Question
 Healthcare home services aim to increase the share of digital appointments to reduce employee travel time and improve efficiency. A target has been set for at least **20% of appointments to be conducted remotely**.
 
